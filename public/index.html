@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="">
+  <!-- Required meta tags -->
+  <title>Grocerry Admin Dashboard</title>
+  <!-- App favicon -->
+  <!-- <link rel="shortcut icon" href="assets/dist/img/favicon.png"> -->
+   <link rel="shortcut icon" href="/assets/dist/img/favicon.png" rel="stylesheet">
+  <!--Global Styles(used by all pages)-->
+  <link href="/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="/assets/plugins/fontawesome/css/all.min.css" rel="stylesheet">
+  <link href="/assets/plugins/typicons/src/typicons.min.css" rel="stylesheet">
+  <link href="/assets/plugins/themify-icons/themify-icons.min.css" rel="stylesheet">
+  <!--Third party Styles(used by this page)-->
+  <!-- <link href="assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet"> -->
+  <!--Start Your Custom Style Now-->
+  <link href="/assets/dist/css/style.css" rel="stylesheet">
+  <!--datatables-->
+  <style>
+    .matx-loader {
+      display: inline-block;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      left: 0;
+      right: 0;
+      top: calc(50% - 20px);
+      margin: auto;
+    }
+    .matx-loader img {
+      position: absolute;
+      height: 25px;
+      width: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+    .matx-loader div {
+      box-sizing: border-box;
+      display: block;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      margin: 0;
+      border: 3.4px solid #7467ef;
+      border-radius: 50%;
+      animation: matx-loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+      border-color: #7467ef transparent transparent transparent;
+    }
+    .matx-loader div:nth-child(1) {
+      animation-delay: -0.45s;
+    }
+    .matx-loader div:nth-child(2) {
+      animation-delay: -0.3s;
+    }
+    .matx-loader div:nth-child(3) {
+      animation-delay: -0.15s;
+    }
+    @keyframes matx-loader {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root">
+    <div class="matx-loader">
+      <img
+        src="/assets/dist/img/logo-circle.svg"
+        alt=""
+      />
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <script src="/assets/plugins/jQuery/jquery-3.4.1.min.js"></script>
+  <script src="/assets/dist/js/popper.min.js"></script>
+  <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/assets/plugins/metisMenu/metisMenu.min.js"></script>
+  <script src="/assets/plugins/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+  <!-- Third Party Scripts(used by this page)-->
+
+  <script src="/assets/dist/js/sidebar.js"></script>
+</body>
+
+</html>
